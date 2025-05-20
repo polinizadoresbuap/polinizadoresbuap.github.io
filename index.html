@@ -1,0 +1,306 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicio</title>
+        
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        
+        <style>
+            
+            footer {
+                height: auto;
+            }
+
+            table {
+                width: auto;
+                margin-left: auto;
+                margin-right: auto;
+                border-collapse: collapse;
+                text-align: center;
+            }
+
+            table tr td {
+                text-align: center;
+                padding: 20px;
+            }
+
+            table td img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            h2{
+                text-align: center;
+            }
+            #foto-principal{
+                min-width: 30%;
+            }
+ .flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 350px;
+  perspective: 1000px;
+
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #FFB200;
+  color: black;
+   
+}
+
+.flip-card-back {
+  background-color: #59B6D3;
+  color: white;
+    padding-left: 20px;
+    text-align: left;
+  transform: rotateY(180deg);
+}
+            .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 100%
+            }
+        </style>
+    </head>
+    <body>
+<header><h1 class="animate__animated animate__zoomInDown">POLINIZADORES</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="html/Videos%20y%20Curiosidades.html">Curiosidades y Vídeos</a></li>
+                <li><a href="html/peligro-y-conservacion.html">Peligros y Conservación</a></li>
+                <li><a href="html/juego-y-actividades.html">Juegos y Actividades</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+           
+           <section>
+                
+                <p>
+                    ¡Hola, hola! 
+                    ¿Eres una persona curiosa? ¿Te gustan mucho las abejitas y las plantas? ¿Eres un futuro activista defensor de los ecosistemas? ¿Son las 3 de la mañana y decidiste buscar algo random que te ayude a dormir? O ¿Estás aquí porque te obligaron a hacer tu tarea sin usar Chat GPT? No importa la forma en que hayas llegado, estamos seguros de que el material que encontrarás aquí será muy útil en cualquiera de estos casos.
+                </p> 
+                   
+                <p>         
+                    A muchas personas les gusta la primavera porque con ella las ciudades y los campos se llenan de flores de todos colores, aunque acompañado de ello también llegan muchos insectos que pueden parecer molestos o generarnos incomodidad cuando paseamos por los parques o queremos hacer un picnic, pero ¿alguna vez te has preguntado que tan grande puede ser el impacto si estos animalitos desaparecieran?
+                
+                </p> 
+                  
+                <p>             
+                    Pues resulta que no solo las abejas, porque gracias a las redes sociales las abejitas se han reivindicado y cada vez más personas buscan su protección, si no también las moscas, las mariposas, algunos escarabajos e incluso murciélagos y roedores ayudan a que las flores sigan naciendo cada primavera, ¿No lo sabías? 
+                    Pues llegaste al lugar correcto, en esta página encontraras mucha información sobre los diferentes tipos de polinizadores, el riesgo que corren, las leyes que los protegen y cómo podemos ayudar como individuos a que estos animalitos puedan seguir cumpliendo su misión.
+
+                </p>
+                
+                <br>
+                <div>
+                <img  class="foto-principal"  src="recursos/imagenes/foto_principal.jpg" alt="Foto Principal">
+                </div>
+                
+        
+            </section>
+            
+            <section>
+                <h2>[DÍA MUNDIAL DE LA ABEJA]</h2>
+                <br>
+                
+                <p>
+                    <img class="abeja_p" src="recursos/imagenes/abeja_polinizando.jpg" alt="Imagen Abeja Polinizando">
+                    La polinización es un proceso fundamental para asegurar la supervivencia de los ecosistemas ya que es esencial para la producción y reproducción de muchos cultivos y plantas silvestres (casi el 90% de las plantas con flores necesitan la polinización para reproducirse).
+                </p>
+                
+                <p>
+                    Los polinizadores contribuyen directamente a la seguridad alimentaria y son indispensables para conservar la biodiversidad, sin embargo, los polinizadores como las mariposas, los colibríes, los murciélagos, los escarabajos y algunos roedores están cada vez más amenazados por la actividad humana.
+                    
+                </p>
+                
+                <p>
+                    Es por esto por lo que en 2018 las Naciones Unidas declararon el 20 de mayo como día internacional de las abejas con el fin de concientizar sobre las amenazas a esta especie y otros polinizadores. 
+                    
+                </p>
+                
+            </section>
+            
+            <section>
+            
+             <div class="carrusel-container"><div class="carrusel"><div class="tarjeta-carrusel">
+             <img src="../html/recursos/imagenes/polen.jpg" alt="Polen">
+             <h3>LA CIENCIA DEL POLEN</h3>
+             <button><a href="../html/recursos/pdf/Ciencia_del_Polen.pdf" target="_blank" download>Leer más</a></button>
+           </div>
+           
+           <div class="tarjeta-carrusel">
+             <img src="../html/recursos/imagenes/agricultura.jpg" alt="Agricultura">
+             <h3>POLINIZADORES Y AGRICULTURA</h3>
+             <button><a href="../html/recursos/pdf/Polinizadores_y_Agricultura.pdf" target="_blank" download>Leer más</a></button>
+           </div>
+           
+           <div class="tarjeta-carrusel">
+             <img src="../html/recursos/imagenes/clima.jpg" alt="Clima">
+             <h3>IMPACTO DEL CLIMA EN LA POLINIZACIÓN</h3>
+             <button><a href="../html/recursos/pdf/Impacto_del_Clima.pdf" target="_blank" download>Leer más</a></button>
+           </div>
+           
+           <div class="tarjeta-carrusel">
+             <img src="../html/recursos/imagenes/abejasmexico.jpg" alt="Abejas en México">
+             <h3>LAS ABEJAS EN MÉXICO</h3>
+             <button><a href="../html/recursos/pdf/Las_Abejas_en_Mexico.pdf" target="_blank" download>Leer más</a></button>
+           </div>
+           
+           <div class="tarjeta-carrusel">
+             <img src="../html/recursos/imagenes/polinizadores.jpg" alt="Declive">
+             <h3>POLINIZADORES EN DECLIVE</h3>
+             <button><a href="../html/recursos/pdf/Polinizadores_en_Declive.pdf" target="_blank" download>Leer más</a></button>
+           </div>
+           
+         </div>
+       </div>
+                <h2>[ARTÍCULOS RELACIONADOS]</h2>
+</section>
+
+            
+            <section>
+                 <div class="card-container">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="../html/recursos/imagenes/mirto.jpg" alt="mirto" style="width:300px;height:300px;max-width: 100%;">
+                </div>
+                <div class="flip-card-back">
+                    <h3 style="text-align: center;">MIRTO</h3>
+            <p>
+               <strong>NOMBRE COMÚN:</strong> Mirto, arrayán.<br>
+               <strong>NOMBRE CIENTÍFICO:</strong> Myrtus communis<br>
+               <strong>FAMILIA:</strong> Myrtaceae
+               </p>
+                </div>
+            </div>
+        </div>
+       <div class="card-container">
+       <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="../html/recursos/imagenes/toronjil.webp" alt="toron" style="width:300px;height:300px;max-width: 100%;">
+                </div>
+                <div class="flip-card-back">
+                    <h3 style="text-align: center;">TORONJIL</h3>
+            <p>
+               <strong>NOMBRE COMÚN:</strong> Toronjil, melisa.<br>
+               <strong>NOMBRE CIENTÍFICO:</strong> Melissa officinalis<br>
+               <strong>FAMILIA:</strong> Lamiaceae
+               </p>   
+                </div>
+            </div>
+        </div>
+           <div class="card-container">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="../html/recursos/imagenes/aretillo.jpg" alt="Nosema spp" style="width:300px;height:300px; max-width: 100%;">
+                </div>
+                <div class="flip-card-back">
+                    <h3 style="text-align: center;">ARETILLO</h3>
+            <p>
+                <strong>NOMBRE COMÚN:</strong> Aretillo.<br>
+               <strong>GÉNERO:</strong> Fuchsia<br>
+               <strong>FAMILIA:</strong> Onagraceae
+               </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="../html/recursos/imagenes/bugambilia.webp" alt="Tropilaelaps spp" style="width:300px;height:300px; max-width: 100%;">
+                </div>
+                <div class="flip-card-back">
+                    <h3 style="text-align: center;">BUGAMBILIA</h3>
+            <p><strong>NOMBRE CIENTÍFICO:</strong> Bougainvillea sp.<br>
+               <strong>GÉNERO:</strong> Fuchsia<br>
+               <strong>FAMILIA:</strong> Nyctaginaceae
+               </p>
+                </div>
+            </div>
+        </div>
+    </div>
+                     </div>
+                </div>
+</section>  
+        
+                        
+            <h2>[IMÁGENES]</h2>
+                   
+            
+            
+        </main>
+        
+        <footer>
+           <table>
+              <tbody>
+                   <tr>
+                       <td>
+                           <a href="https://www.facebook.com/share/1BnauCrxUk/">
+                               <img class="redes" id="facebook_ico" src="recursos/imagenes/facebook.png" alt="Facebook">
+                           </a>
+                       </td>
+                       
+                       <td>
+                           <a href="https://www.instagram.com/salvando.abejas.cdmx?igsh=dDJyMjhpNzNveXk4">
+                               <img class="redes" id="instagram_ico" src="recursos/imagenes/instagram.png" alt="Instagram">
+                           </a>
+                       </td>
+                       
+                       <td>
+                           <a href="https://x.com/campoyabejas?t=duSPlhW-RXdsR_8sbHS33w&s=09">
+                               <img class="redes" id="x_ico" src="recursos/imagenes/x.png" alt="X">
+                           </a>
+                       </td>
+                       
+                       <td>
+                           <a href="https://youtu.be/2ljnINXPfcc?si=XIeKWkoShg-Ev2Z9">
+                               <img class="redes" id="youtube_ico" src="recursos/imagenes/youtube.png" alt="YouTube">
+                           </a>
+                       </td>
+                       
+                       <td>
+                           <a href="https://t.me/todoparaapiculturaARG_biblioteca">
+                               <img class="redes" id="telegram_ico" src="recursos/imagenes/telegram.png" alt="Telegram">
+                           </a>
+                       </td>
+                   </tr>
+               </tbody>
+           </table>
+        </footer>
+        
+    </body>
+</html>
